@@ -1,0 +1,22 @@
+---------In URL Method
+first run code
+then goto browser and type
+localhost:5000/
+
+page load - either enter data part or press default path button
+
+---------Postman method
+enter localhost:5000/predict
+select post method
+
+in header part
+key : Content-Type
+Value : application/json
+
+in Body part
+{
+"folderpath":"Prediction_Batch_files"
+}
+
+SEND.
+
